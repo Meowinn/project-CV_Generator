@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.80d8c292.css",
-    "main.js": "/static/js/main.5a926fc9.js",
-    "index.html": "/index.html",
-    "main.80d8c292.css.map": "/static/css/main.80d8c292.css.map",
-    "main.5a926fc9.js.map": "/static/js/main.5a926fc9.js.map"
+    "main.css": "/TOP-CV_Generator/static/css/main.80d8c292.css",
+    "main.js": "/TOP-CV_Generator/static/js/main.5a926fc9.js",
+    "index.html": "/TOP-CV_Generator/index.html",
+    "main.80d8c292.css.map": "/TOP-CV_Generator/static/css/main.80d8c292.css.map",
+    "main.5a926fc9.js.map": "/TOP-CV_Generator/static/js/main.5a926fc9.js.map"
   },
   "entrypoints": [
     "static/css/main.80d8c292.css",
