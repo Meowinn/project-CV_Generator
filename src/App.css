@@ -1,0 +1,225 @@
+.hideBtn {
+  display: none;
+}
+
+button {
+  border-radius: 5px;
+  padding: 2px 15px;
+}
+
+
+
+textarea {
+  border-radius: 8px;
+}
+
+#header {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 20px 0;
+}
+
+body {
+  background-color: rgb(216, 214, 214);
+}
+
+#mainWrapper {
+  display: grid;
+  padding-top: 20px;
+  grid-template-columns: 1fr 1fr;
+  /* background-color: white; */
+  
+}
+
+#previewDiv {
+  grid-column: 1/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+#leftWrapper {
+  display: grid;
+  justify-items: flex-end;
+  padding-top: 30px;
+  padding-right: 50px;
+  border-right: 2px solid black;
+}
+#rightWrapper {
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 350px;
+}
+
+
+#personDetailsWrapper {
+  
+  
+}
+
+input[type=text],
+input[type=email] {
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+
+
+.nameDiv {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  gap: 7px;
+  
+}
+
+.fullName {
+  font-size: 2.3rem;
+  font-weight: 600;
+
+}
+
+.nameForm {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.ContactsDiv {
+  padding-bottom: 30px;
+}
+
+.contactForm {
+  font-size: 1.2rem;
+}
+
+.contactWrapper {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding-bottom: 5px;
+}
+
+.contactHeader {
+  font-size: 1.2rem;
+  font-weight: 600;
+  
+}
+
+.interestWrapper {
+  display: flex;
+  
+  align-items: center;
+  gap: 7px;
+}
+
+#interestAddBtn {
+  padding-top: 3px;
+}
+
+.interestHeader {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.sumDiv {
+  padding-bottom: 30px;
+}
+
+.sumWrapper {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding-bottom: 10px;
+}
+
+.sumHeader {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+#summaryText {
+  text-align: justify;
+  width: 630px;
+  word-wrap: break-word;
+  
+
+}
+
+.workExpDiv {
+  
+  padding-bottom: 30px;
+}
+
+#workExpForm,
+#educForm {
+  padding-top: 15px;
+  padding-left: 40px;
+}
+
+#workWrapper {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+}
+
+.workHeader {
+  font-size: 1.2rem;
+  font-weight: 600;
+
+}
+
+#experiencesContainer {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  
+}
+
+#deleteExpBtn,
+#removeEducBtn {
+  height: 25px;
+}
+
+.educDiv {
+  grid-column: 2/3;
+}
+
+#educBtns {
+  padding-top: 3px;
+}
+
+#educWrapper {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+#educContainer {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 20px;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+#educHeader {
+  font-size: 1.2rem;
+  font-weight: 600;
+  
+}
+
+
+
+
