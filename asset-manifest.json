@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/TOP-CV_Generator/static/css/main.80d8c292.css",
-    "main.js": "/TOP-CV_Generator/static/js/main.5a926fc9.js",
+    "main.js": "/TOP-CV_Generator/static/js/main.ab5c2e68.js",
     "index.html": "/TOP-CV_Generator/index.html",
     "main.80d8c292.css.map": "/TOP-CV_Generator/static/css/main.80d8c292.css.map",
-    "main.5a926fc9.js.map": "/TOP-CV_Generator/static/js/main.5a926fc9.js.map"
+    "main.ab5c2e68.js.map": "/TOP-CV_Generator/static/js/main.ab5c2e68.js.map"
   },
   "entrypoints": [
     "static/css/main.80d8c292.css",
-    "static/js/main.5a926fc9.js"
+    "static/js/main.ab5c2e68.js"
   ]
 }
