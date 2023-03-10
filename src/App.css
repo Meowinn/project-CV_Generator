@@ -8,7 +8,6 @@ button {
 }
 
 
-
 textarea {
   border-radius: 8px;
 }
@@ -20,6 +19,7 @@ textarea {
   font-weight: 600;
   font-size: 1.2rem;
   padding: 20px 0;
+  width: 100%;
 }
 
 body {
@@ -27,38 +27,24 @@ body {
 }
 
 #mainWrapper {
-  display: grid;
+  display: flex;
+  justify-content: center;
   padding-top: 20px;
-  grid-template-columns: 1fr 1fr;
-  /* background-color: white; */
-  
 }
 
 #previewDiv {
-  grid-column: 1/3;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 20px;
+  padding: 10px 0;
 }
 
 #leftWrapper {
-  display: grid;
-  justify-items: flex-end;
-  padding-top: 30px;
   padding-right: 50px;
-  border-right: 2px solid black;
+  border-right: 2px solid black; 
 }
 #rightWrapper {
-  padding-top: 30px;
   padding-left: 50px;
-  padding-right: 350px;
-}
-
-
-#personDetailsWrapper {
-  
-  
 }
 
 input[type=text],
@@ -110,7 +96,6 @@ input[type=email] {
 
 .interestWrapper {
   display: flex;
-  
   align-items: center;
   gap: 7px;
 }
@@ -142,14 +127,11 @@ input[type=email] {
 
 #summaryText {
   text-align: justify;
-  width: 630px;
+  width: 520px;
   word-wrap: break-word;
-  
-
 }
 
 .workExpDiv {
-  
   padding-bottom: 30px;
 }
 
@@ -181,7 +163,6 @@ input[type=email] {
   padding: 20px;
   font-size: 1.1rem;
   margin-bottom: 15px;
-  
 }
 
 #deleteExpBtn,
@@ -217,7 +198,27 @@ input[type=email] {
 #educHeader {
   font-size: 1.2rem;
   font-weight: 600;
-  
+}
+
+@media all and (max-width: 980px) {
+ 
+  #mainWrapper {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  #summaryText {
+    width: 360px;
+  }
+
+  #experiencesContainer {
+    width: 70%;
+  }
+
+  #educContainer  {
+    width: 70%;
+  }
+
 }
 
 

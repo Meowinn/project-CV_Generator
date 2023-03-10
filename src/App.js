@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Name from './components/name';
 import Summary from './components/summary';
@@ -6,9 +6,9 @@ import Education from './components/education';
 
 const App = () => {
 
-  const [toggleButtons, setToggleButtons] = useState(<ShowBtn previewBtn = {previewBtnF} />);
+  const [toggleButtons, setToggleButtons] = useState(<ShowBtn previewBtn={previewBtnF} />);
 
-  function previewBtnF () {
+  function previewBtnF() {
     console.log('previewed!')
 
     const allButtons = document.querySelectorAll('.toggleVisual');
@@ -16,7 +16,7 @@ const App = () => {
     for (const button of allButtons) {
       button.classList.add('hideBtn');
     }
-    setToggleButtons(<EditBtn editBtn = {editBtnF} />)
+    setToggleButtons(<EditBtn editBtn={editBtnF} />)
   };
 
   function editBtnF() {
@@ -26,24 +26,23 @@ const App = () => {
     for (const button of allButtons) {
       button.classList.remove('hideBtn');
     }
-    setToggleButtons(<ShowBtn previewBtn = {previewBtnF} />)
+    setToggleButtons(<ShowBtn previewBtn={previewBtnF} />)
   };
 
   return (
     <div>
-    <div id='header'>CV Generator</div>
-    <div id="mainWrapper">
+      <div id='header'>CV Generator</div>
       <div id='previewDiv'>{toggleButtons}</div>
-      
-      <div id='leftWrapper'>
-        <Name />
-      </div>
-      <div id='rightWrapper'>
-        <Summary />
-        <Education />
+      <div id="mainWrapper">
+        <div id='leftWrapper'>
+          <Name />
+        </div>
+        <div id='rightWrapper'>
+          <Summary />
+          <Education />
+        </div>
       </div>
     </div>
-  </div>
   )
 };
 
