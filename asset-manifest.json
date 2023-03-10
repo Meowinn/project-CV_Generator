@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/TOP-CV_Generator/static/css/main.80d8c292.css",
-    "main.js": "/TOP-CV_Generator/static/js/main.ab5c2e68.js",
+    "main.css": "/TOP-CV_Generator/static/css/main.dddd3ce9.css",
+    "main.js": "/TOP-CV_Generator/static/js/main.fc9dfa4d.js",
     "index.html": "/TOP-CV_Generator/index.html",
-    "main.80d8c292.css.map": "/TOP-CV_Generator/static/css/main.80d8c292.css.map",
-    "main.ab5c2e68.js.map": "/TOP-CV_Generator/static/js/main.ab5c2e68.js.map"
+    "main.dddd3ce9.css.map": "/TOP-CV_Generator/static/css/main.dddd3ce9.css.map",
+    "main.fc9dfa4d.js.map": "/TOP-CV_Generator/static/js/main.fc9dfa4d.js.map"
   },
   "entrypoints": [
-    "static/css/main.80d8c292.css",
-    "static/js/main.ab5c2e68.js"
+    "static/css/main.dddd3ce9.css",
+    "static/js/main.fc9dfa4d.js"
   ]
 }
