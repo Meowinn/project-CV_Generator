@@ -1,7 +1,7 @@
 {
-  "homepage": "http://Meowinn.github.io/project-CV_Generator",
   "name": "top-cv",
   "version": "0.1.0",
+  "homepage": "http://Meowinn.github.io/project-CV_Generator",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
