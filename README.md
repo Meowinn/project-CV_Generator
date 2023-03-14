@@ -1,1 +1,1 @@
-# TOP-CV_Generator
+This is a CV builder using React functional components
